@@ -1,0 +1,1895 @@
+﻿Log file open, 06/23/20 00:25:15
+LogInit: Display: Running engine for game: Pinball_Praharsh
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.132214
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +5:30, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13144385
+LogInit: Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): May  2 2020 02:12:11
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/EPIC GAMES/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.06.22-18.55.15:708][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.22-18.55.15:708][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.22-18.55.15:708][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Engine.ini]
+[2020.06.22-18.55.15:708][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.22-18.55.15:708][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Engine.ini]
+[2020.06.22-18.55.15:709][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Engine.ini]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Engine.ini]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.22-18.55.15:709][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Engine.ini]
+[2020.06.22-18.55.15:709][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Engine.ini]
+[2020.06.22-18.55.15:712][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.22-18.55.15:713][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.22-18.55.15:714][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.22-18.55.15:714][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.22-18.55.15:714][  0]LogHAL: Display: Platform has ~ 8 GB [8449904640 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.22-18.55.15:714][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.22-18.55.15:714][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.22-18.55.15:714][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.22-18.55.15:715][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.06.22-18.55.15:716][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Config/Windows/Engine.ini]
+[2020.06.22-18.55.15:716][  0]LogInit: Computer: DESKTOP-MLHC4VR
+[2020.06.22-18.55.15:716][  0]LogInit: User: mohit
+[2020.06.22-18.55.15:716][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.06.22-18.55.15:716][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.22-18.55.15:716][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.06.22-18.55.15:716][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.22-18.55.15:716][  0]LogMemory: Process Physical Memory: 113.98 MB used, 113.99 MB peak
+[2020.06.22-18.55.15:716][  0]LogMemory: Process Virtual Memory: 95.53 MB used, 95.53 MB peak
+[2020.06.22-18.55.15:717][  0]LogMemory: Physical Memory: 5136.75 MB used,  2921.70 MB free, 8058.46 MB total
+[2020.06.22-18.55.15:717][  0]LogMemory: Virtual Memory: 5127.77 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2020.06.22-18.55.15:722][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.22-18.55.15:759][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.06.22-18.55.15:761][  0]LogInit: Using OS detected language (en-US).
+[2020.06.22-18.55.15:761][  0]LogInit: Using OS detected locale (en-IN).
+[2020.06.22-18.55.15:761][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.06.22-18.55.15:961][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.22-18.55.15:999][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.22-18.55.15:999][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.22-18.55.16:176][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.22-18.55.16:176][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.06.22-18.55.16:176][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.06.22-18.55.16:176][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.22-18.55.16:256][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2020.06.22-18.55.16:256][  0]LogD3D11RHI:       4019/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.06.22-18.55.16:269][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.06.22-18.55.16:270][  0]LogD3D11RHI:       128/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.06.22-18.55.16:272][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.22-18.55.16:272][  0]LogD3D11RHI:       0/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.22-18.55.16:272][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.22-18.55.16:318][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.22-18.55.16:318][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2020.06.22-18.55.16:318][  0]LogWindows: EnumDisplayDevices:
+[2020.06.22-18.55.16:318][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.06.22-18.55.16:318][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.06.22-18.55.16:319][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.06.22-18.55.16:319][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2020.06.22-18.55.16:319][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2020.06.22-18.55.16:319][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2020.06.22-18.55.16:319][  0]LogD3D11RHI:   Driver Version: 441.66 (internal:26.21.14.4166, unified:441.66)
+[2020.06.22-18.55.16:319][  0]LogD3D11RHI:      Driver Date: 12-6-2019
+[2020.06.22-18.55.16:319][  0]LogRHI: Texture pool is 2813 MB (70% of 4019 MB)
+[2020.06.22-18.55.16:372][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.06.22-18.55.16:374][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.06.22-18.55.16:374][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.22-18.55.16:374][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.06.22-18.55.16:503][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.06.22-18.55.16:865][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.22-18.55.16:890][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.22-18.55.16:890][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.22-18.55.16:890][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.22-18.55.16:890][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.22-18.55.16:890][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.22-18.55.16:890][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.22-18.55.16:890][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.22-18.55.16:890][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.22-18.55.16:890][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.22-18.55.16:890][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.22-18.55.16:915][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.22-18.55.16:915][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.22-18.55.16:926][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.06.22-18.55.16:936][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.22-18.55.16:948][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.22-18.55.16:958][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.22-18.55.16:969][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.22-18.55.16:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.22-18.55.16:990][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.22-18.55.17:019][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.22-18.55.17:019][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.22-18.55.17:036][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.22-18.55.17:037][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.22-18.55.17:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.22-18.55.17:057][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.22-18.55.17:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.22-18.55.17:078][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.22-18.55.17:078][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.22-18.55.17:088][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.22-18.55.17:155][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Intermediate/Shaders/WorkingDirectory/13440/).
+[2020.06.22-18.55.17:155][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mohit/AppData/Local/Temp/UnrealShaderWorkingDir/86B3FFF1427735F2836E9EAD70233F73/'.
+[2020.06.22-18.55.17:155][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.22-18.55.17:156][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.22-18.55.17:156][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.22-18.55.18:071][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.22-18.55.18:167][  0]LogDerivedDataCache: Loaded boot cache 0.10s 104MB C:/Users/mohit/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.22-18.55.18:167][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mohit/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.06.22-18.55.18:168][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.22-18.55.18:168][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.22-18.55.18:168][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.22-18.55.18:168][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.22-18.55.18:180][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.22-18.55.18:180][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.22-18.55.18:180][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.22-18.55.18:182][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mohit/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.22-18.55.18:182][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.22-18.55.18:182][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.22-18.55.18:257][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.22-18.55.18:257][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.22-18.55.18:286][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+[2020.06.22-18.55.18:543][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.22-18.55.18:687][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.22-18.55.18:687][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.22-18.55.18:687][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.22-18.55.18:687][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.22-18.55.18:687][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.22-18.55.18:705][  0]LogNetVersion: Pinball_Praharsh 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1455858)
+[2020.06.22-18.55.19:236][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001DFCFEE6300), frame # 0
+[2020.06.22-18.55.19:236][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001DFCFE66D40), frame # 0
+[2020.06.22-18.55.19:237][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001DFCFEBDE00), frame # 0
+[2020.06.22-18.55.19:378][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.134780 seconds
+[2020.06.22-18.55.19:384][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.06.22-18.55.19:384][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.06.22-18.55.19:384][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.22-18.55.19:767][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.22-18.55.19:772][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.22-18.55.19:859][  0]SourceControl: Source control is disabled
+[2020.06.22-18.55.19:859][  0]SourceControl: Source control is disabled
+[2020.06.22-18.55.19:863][  0]SourceControl: Source control is disabled
+[2020.06.22-18.55.19:867][  0]SourceControl: Source control is disabled
+[2020.06.22-18.55.19:873][  0]SourceControl: Source control is disabled
+[2020.06.22-18.55.19:888][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.06.22-18.55.19:889][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.06.22-18.55.20:131][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.22-18.55.20:154][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.22-18.55.20:154][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.22-18.55.20:208][  0]LogOcInput: OculusInput pre-init called
+[2020.06.22-18.55.20:219][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.22-18.55.20:219][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.22-18.55.20:286][  0]LogEngine: Initializing Engine...
+[2020.06.22-18.55.20:288][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.22-18.55.20:288][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.06.22-18.55.20:289][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.06.22-18.55.20:433][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.22-18.55.20:441][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.22-18.55.20:441][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001DFD4043C00), frame # 0
+[2020.06.22-18.55.20:441][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001DFD40A96C0), frame # 0
+[2020.06.22-18.55.20:468][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.22-18.55.20:468][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.22-18.55.20:468][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.22-18.55.20:468][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.22-18.55.20:468][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.22-18.55.20:468][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.22-18.55.20:468][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.22-18.55.20:468][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.22-18.55.20:468][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.22-18.55.20:468][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.22-18.55.20:478][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.22-18.55.20:478][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.22-18.55.21:633][  0]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2020.06.22-18.55.21:641][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.22-18.55.21:643][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.22-18.55.21:643][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.22-18.55.21:644][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.22-18.55.21:645][  0]LogInit: FAudioDevice initialized.
+[2020.06.22-18.55.21:646][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.22-18.55.21:887][  0]LogDerivedDataCache: Saved boot cache 0.24s 104MB C:/Users/mohit/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.22-18.55.21:893][  0]LogInit: Texture streaming: Enabled
+[2020.06.22-18.55.21:913][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.22-18.55.21:913][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.22-18.55.21:915][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.22-18.55.21:993][  0]LogInit: Transaction tracking system initialized
+[2020.06.22-18.55.22:015][  0]BlueprintLog: New page: Editor Load
+[2020.06.22-18.55.22:092][  0]LocalizationService: Localization service is disabled
+[2020.06.22-18.55.22:300][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.06.22-18.55.22:301][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.06.22-18.55.22:546][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.22-18.55.22:546][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.22-18.55.22:583][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Content/' took 0.01s
+[2020.06.22-18.55.22:583][  0]LogLinker: Warning: Failed to load '/Engine/BasicShapes/Cube': Can't find file.
+[2020.06.22-18.55.22:583][  0]LogLinker: Warning: Failed to load '/Engine/BasicShapes/Cube': Can't find file.
+[2020.06.22-18.55.22:583][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cube.Cube'
+[2020.06.22-18.55.22:912][  0]SourceControl: Source control is disabled
+[2020.06.22-18.55.22:912][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.925
+[2020.06.22-18.55.22:912][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.22-18.55.22:912][  0]LightingResults: New page: Lighting Build
+[2020.06.22-18.55.22:912][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-18.55.22:912][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-18.55.22:912][  0]MapCheck: New page: Map Check
+[2020.06.22-18.55.22:912][  0]LightingResults: New page: Lighting Build
+[2020.06.22-18.55.22:922][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001DFD4043C00), frame # 0
+[2020.06.22-18.55.22:922][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001DFD40A96C0), frame # 0
+[2020.06.22-18.55.22:922][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.06.22-18.55.22:994][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.06.22-18.55.22:994][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001DFB4521400), frame # 0
+[2020.06.22-18.55.22:994][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001DFB3705A80), frame # 0
+[2020.06.22-18.55.23:000][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.22-18.55.23:010][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.06.22-18.55.23:010][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.22-18.55.23:010][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.276ms to complete.
+[2020.06.22-18.55.23:010][  0]LogFileHelpers: Loading map 'Template_Default' took 0.099
+[2020.06.22-18.55.23:013][  0]LogUnrealEdMisc: Total Editor Startup Time, took 9.027
+[2020.06.22-18.55.23:392][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-18.55.23:403][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-18.55.23:412][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-18.55.23:420][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-18.55.23:466][  0]LogCollectionManager: Loaded 0 collections in 0.001489 seconds
+[2020.06.22-18.55.23:783][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Collections/' took 0.00s
+[2020.06.22-18.55.23:784][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Content/Developers/mohit/Collections/' took 0.00s
+[2020.06.22-18.55.23:784][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Content/Collections/' took 0.00s
+[2020.06.22-18.55.23:784][  0]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 3426 classes and 820 folders.
+[2020.06.22-18.55.23:795][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.22-18.55.25:414][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.06.22-18.55.25:433][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.06.22-18.55.25:826][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.22-18.55.25:828][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.22-18.55.25:874][  0]LogSlate: Took 0.042494 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.22-18.55.26:193][  0]LogRenderer: Reallocating scene render targets to support 892x388 Format 10 NumSamples 1 (Frame:1).
+[2020.06.22-18.55.26:517][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.06.22-18.55.26:517][  0]LogLoad: (Engine Initialization) Total time: 12.53 seconds
+[2020.06.22-18.55.26:517][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.22-18.55.26:559][  0]LogAssetRegistry: Asset discovery search completed in 8.2729 seconds
+[2020.06.22-18.55.26:563][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.06.22-18.55.26:564][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.22-18.55.26:709][  0]LogSlate: Took 0.031917 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.22-18.57.09:274][692]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.22-18.57.10:488][692]LogStaticMesh: Building static mesh SM_PopBumperBase...
+[2020.06.22-18.57.10:714][692]LogStaticMesh: Built static mesh [0.26s] /Game/Assets/SM_PopBumperBase.SM_PopBumperBase
+[2020.06.22-18.57.10:994][692]LogAssetEditorSubsystem: Opening Asset editor for World /Game/pinball_Praharsh.pinball_Praharsh
+[2020.06.22-18.57.11:006][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.06.22-18.57.11:008][692]Cmd: MAP LOAD FILE="C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Content/pinball_Praharsh.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.22-18.57.11:008][692]LightingResults: New page: Lighting Build
+[2020.06.22-18.57.11:008][692]LoadErrors: New page: Loading map: pinball_Praharsh.umap
+[2020.06.22-18.57.11:009][692]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-18.57.11:009][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-18.57.11:009][692]MapCheck: New page: Map Check
+[2020.06.22-18.57.11:010][692]LightingResults: New page: Lighting Build
+[2020.06.22-18.57.11:019][692]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001DFB4521400), frame # 11692
+[2020.06.22-18.57.11:019][692]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001DFB3705A80), frame # 11692
+[2020.06.22-18.57.11:020][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.06.22-18.57.11:085][692]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.22-18.57.11:085][692]LogAIModule: Creating AISystem for world pinball_Praharsh
+[2020.06.22-18.57.11:085][692]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001DFB44B5E00), frame # 11692
+[2020.06.22-18.57.11:085][692]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001DFB44BD800), frame # 11692
+[2020.06.22-18.57.11:098][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.06.22-18.57.11:137][692]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.22-18.57.11:137][692]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.13ms to complete.
+[2020.06.22-18.57.11:137][692]LogFileHelpers: Loading map 'pinball_Praharsh' took 0.129
+[2020.06.22-18.57.35:729][191]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PinballGameMode.PinballGameMode
+[2020.06.22-18.57.36:953][191]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 125 classes and 0 folders.
+[2020.06.22-18.57.38:595][191]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.22-18.57.39:002][192]LogSlate: Took 0.026481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.22-18.58.24:426][643]LogSlate: Window 'PinballGameMode' being destroyed
+[2020.06.22-18.58.24:429][643]LogSlate: Window 'PinballGameMode' being destroyed
+[2020.06.22-18.58.24:451][643]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-18.58.24:451][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-19.03.46:793][  6]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_BUMPER.BP_BUMPER
+[2020.06.22-19.08.37:242][599]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.06.22-19.08.37:245][599]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/pinball_Praharsh' took 0.036
+[2020.06.22-19.08.37:249][599]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballGameMode] ([1] browsable assets)...
+[2020.06.22-19.08.37:249][599]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballGameMode]
+[2020.06.22-19.08.37:608][599]LogSavePackage: Moving 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/PinballGameMode_Auto140F5CC4A4BB983272B985FA1E7CF5D5A.tmp' to 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto1.uasset'
+[2020.06.22-19.08.37:635][599]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_BUMPER] ([1] browsable assets)...
+[2020.06.22-19.08.37:674][599]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_BUMPER.BP_BUMPER]
+[2020.06.22-19.08.37:674][599]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_BUMPER]
+[2020.06.22-19.08.37:748][599]LogSavePackage: Moving 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/BP_BUMPER_Auto1A09D17D54955ADC9B0A0029F81831FB6.tmp' to 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Autosaves/Game/Blueprints/BP_BUMPER_Auto1.uasset'
+[2020.06.22-19.08.37:760][599]LogFileHelpers: Auto-saving content packages took 0.516
+[2020.06.22-19.18.06:114][626]LogEditorTransaction: Undo Mouse Drag
+[2020.06.22-19.18.06:602][638]LogEditorTransaction: Undo Mouse Drag
+[2020.06.22-19.18.07:151][671]LogEditorTransaction: Undo Select Interpolation Mode
+[2020.06.22-19.18.07:675][703]LogEditorTransaction: Undo Mouse Drag
+[2020.06.22-19.18.08:609][763]LogEditorTransaction: Undo Mouse Drag
+[2020.06.22-19.18.09:759][838]LogEditorTransaction: Undo Mouse Drag
+[2020.06.22-19.18.10:315][874]LogEditorTransaction: Undo Select Interpolation Mode
+[2020.06.22-19.18.18:336][409]LogEditorTransaction: Undo Select Interpolation Mode
+[2020.06.22-19.19.26:788][230]LogEditorTransaction: Undo Select Interpolation Mode
+[2020.06.22-19.20.03:380][844]LogEditorTransaction: Undo Mouse Drag
+[2020.06.22-19.20.03:819][854]LogEditorTransaction: Undo Mouse Drag
+[2020.06.22-19.20.04:285][880]LogEditorTransaction: Undo Mouse Drag
+[2020.06.22-19.20.04:683][905]LogEditorTransaction: Undo Mouse Drag
+[2020.06.22-19.20.05:114][933]LogEditorTransaction: Undo Flatten Tangents
+[2020.06.22-19.20.05:509][956]LogEditorTransaction: Undo Mouse Drag
+[2020.06.22-19.20.05:919][981]LogEditorTransaction: Undo Mouse Drag
+[2020.06.22-19.20.06:387][ 11]LogEditorTransaction: Undo Select Interpolation Mode
+[2020.06.22-19.20.06:818][ 37]LogEditorTransaction: Undo Mouse Drag
+[2020.06.22-19.20.07:228][ 63]LogEditorTransaction: Undo Mouse Drag
+[2020.06.22-19.20.07:663][ 91]LogEditorTransaction: Undo Select Interpolation Mode
+[2020.06.22-19.20.08:094][118]LogEditorTransaction: Undo Mouse Drag
+[2020.06.22-19.20.08:664][155]LogEditorTransaction: Undo Mouse Drag
+[2020.06.22-19.20.09:397][203]LogEditorTransaction: Undo Select Interpolation Mode
+[2020.06.22-19.20.15:988][638]LogSlate: Window 'BP_BUMPER' being destroyed
+[2020.06.22-19.20.15:999][638]LogSlate: Window 'BP_BUMPER' being destroyed
+[2020.06.22-19.20.16:000][638]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-19.20.16:000][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-19.20.21:233][789]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_BUMPER.BP_BUMPER
+[2020.06.22-19.21.26:096][301]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.06.22-19.21.26:098][301]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/pinball_Praharsh' took 0.031
+[2020.06.22-19.21.26:098][301]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_BUMPER] ([1] browsable assets)...
+[2020.06.22-19.21.26:146][301]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_BUMPER.BP_BUMPER]
+[2020.06.22-19.21.26:147][301]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_BUMPER]
+[2020.06.22-19.21.26:217][301]LogSavePackage: Moving 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/BP_BUMPER_Auto2A59287144FE288605B724699E9D090B8.tmp' to 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Autosaves/Game/Blueprints/BP_BUMPER_Auto2.uasset'
+[2020.06.22-19.21.26:220][301]LogFileHelpers: Auto-saving content packages took 0.121
+[2020.06.22-19.24.15:131][914]LogSlate: Window 'Tutorials' being destroyed
+[2020.06.22-19.24.18:736][ 94]LogSlate: Window 'Tutorials' being destroyed
+[2020.06.22-19.24.19:951][151]LogSlate: Window 'Tutorials' being destroyed
+[2020.06.22-19.24.28:266][469]LogSlate: Window 'Delete Variable' being destroyed
+[2020.06.22-19.24.46:183][590]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets/M_Bumper.M_Bumper
+[2020.06.22-19.24.46:192][590]LogMaterial: Display: Missing cached shader map for material M_Bumper, compiling. 
+[2020.06.22-19.24.47:296][590]LogMaterial: Display: Missing cached shader map for material M_Bumper, compiling. 
+[2020.06.22-19.24.47:311][590]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2020.06.22-19.24.47:311][590]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2020.06.22-19.24.47:311][590]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2020.06.22-19.24.47:314][590]LogMaterial: Display: Missing cached shader map for material M_Bumper, compiling. 
+[2020.06.22-19.24.47:368][590]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.06.22-19.24.47:377][590]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2020.06.22-19.24.47:417][590]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.06.22-19.24.52:031][826]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2020.06.22-19.24.53:407][896]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
+[2020.06.22-19.24.53:732][912]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2020.06.22-19.24.54:723][958]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2020.06.22-19.24.57:042][ 65]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2020.06.22-19.24.57:190][ 72]LogMaterialEditor: Saving and Compiling material M_Bumper
+[2020.06.22-19.24.57:252][ 72]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
+[2020.06.22-19.24.57:258][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_Bumper" FILE="C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Content/Assets/M_Bumper.uasset" SILENT=true
+[2020.06.22-19.24.57:317][ 72]LogSavePackage: Moving 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/M_Bumper001B6887435AC112709CF68BA828F7E4.tmp' to 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Content/Assets/M_Bumper.uasset'
+[2020.06.22-19.24.57:333][ 72]AssetCheck: New page: Asset Save: M_Bumper
+[2020.06.22-19.24.57:333][ 72]LogContentValidation: Display: Validating Material /Game/Assets/M_Bumper.M_Bumper
+[2020.06.22-19.24.58:184][113]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 18
+[2020.06.22-19.24.59:569][180]LogSlate: Window 'M_Bumper' being destroyed
+[2020.06.22-19.24.59:572][180]LogSlate: Window 'M_Bumper' being destroyed
+[2020.06.22-19.24.59:572][180]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-19.24.59:572][180]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-19.25.00:462][180]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 17
+[2020.06.22-19.25.00:462][180]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
+[2020.06.22-19.25.00:462][180]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
+[2020.06.22-19.25.00:462][180]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
+[2020.06.22-19.25.00:462][180]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2020.06.22-19.25.00:531][180]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-19.25.00:531][180]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-19.25.06:982][573]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_BUMPER.BP_BUMPER
+[2020.06.22-19.29.24:374][652]BlueprintLog: New page: Compile BP_BUMPER
+[2020.06.22-19.29.24:436][652]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2020.06.22-19.29.24:492][652]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.06.22-19.29.26:202][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_BUMPER" FILE="C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Content/Blueprints/BP_BUMPER.uasset" SILENT=true
+[2020.06.22-19.29.26:264][751]LogSavePackage: Moving 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/BP_BUMPER4BC4C3814E02417E271C51BF642F0E1B.tmp' to 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Content/Blueprints/BP_BUMPER.uasset'
+[2020.06.22-19.29.26:284][751]AssetCheck: New page: Asset Save: BP_BUMPER
+[2020.06.22-19.29.26:284][751]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_BUMPER.BP_BUMPER
+[2020.06.22-19.29.28:107][850]LogSlate: Window 'BP_BUMPER' being destroyed
+[2020.06.22-19.29.28:110][850]LogSlate: Window 'BP_BUMPER' being destroyed
+[2020.06.22-19.29.28:110][850]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-19.29.28:110][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-19.30.29:702][276]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_BUMPER.BP_BUMPER
+[2020.06.22-19.30.36:542][462]LogSlate: Window 'BP_BUMPER' being destroyed
+[2020.06.22-19.30.36:548][462]LogSlate: Window 'BP_BUMPER' being destroyed
+[2020.06.22-19.30.36:548][462]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-19.30.36:548][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-19.30.39:244][604]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets/M_Bumper.M_Bumper
+[2020.06.22-19.30.39:263][604]LogMaterial: Display: Missing cached shader map for material M_Bumper, compiling. 
+[2020.06.22-19.30.39:425][604]LogMaterial: Display: Missing cached shader map for material M_Bumper, compiling. 
+[2020.06.22-19.30.39:437][604]LogMaterial: Display: Missing cached shader map for material M_Bumper, compiling. 
+[2020.06.22-19.30.39:457][604]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2020.06.22-19.30.39:457][604]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2020.06.22-19.30.39:457][604]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2020.06.22-19.30.39:459][604]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.06.22-19.30.39:464][604]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2020.06.22-19.30.39:468][604]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.06.22-19.30.42:189][722]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 21
+[2020.06.22-19.30.45:091][861]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2020.06.22-19.30.45:610][887]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2020.06.22-19.30.46:022][908]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
+[2020.06.22-19.30.49:236][ 51]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2020.06.22-19.30.50:119][ 96]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 16
+[2020.06.22-19.30.51:434][160]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.06.22-19.30.52:515][203]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 14
+[2020.06.22-19.30.52:866][210]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2020.06.22-19.30.53:382][222]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2020.06.22-19.30.53:649][227]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2020.06.22-19.30.53:656][227]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2020.06.22-19.30.53:745][228]MaterialEditorStats: Base pass shader: 123 instructions
+[2020.06.22-19.30.53:745][228]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 197 instructions
+[2020.06.22-19.30.53:745][228]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.06.22-19.30.53:745][228]MaterialEditorStats: Texture samplers: 3/16
+[2020.06.22-19.30.53:745][228]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.06.22-19.30.53:745][228]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.06.22-19.30.54:371][237]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.06.22-19.30.54:909][250]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.06.22-19.30.54:909][250]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.06.22-19.30.55:197][257]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.06.22-19.30.55:598][265]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.06.22-19.30.56:077][271]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.06.22-19.30.56:291][276]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.06.22-19.30.56:574][282]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.06.22-19.30.56:949][289]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.06.22-19.32.48:066][819]LogSlate: Window 'M_Bumper' being destroyed
+[2020.06.22-19.32.48:069][819]LogSlate: Window 'M_Bumper' being destroyed
+[2020.06.22-19.32.48:125][819]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-19.32.48:126][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-19.33.13:375][308]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_BUMPER.BP_BUMPER
+[2020.06.22-19.34.30:915][136]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.06.22-19.34.30:917][136]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/pinball_Praharsh' took 0.034
+[2020.06.22-19.34.30:918][136]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_BUMPER] ([1] browsable assets)...
+[2020.06.22-19.34.30:929][136]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_BUMPER.BP_BUMPER]
+[2020.06.22-19.34.30:929][136]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_BUMPER]
+[2020.06.22-19.34.30:987][136]LogSavePackage: Moving 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/BP_BUMPER_Auto3843AFAAD4380E0711418EBBDAB9E993F.tmp' to 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Autosaves/Game/Blueprints/BP_BUMPER_Auto3.uasset'
+[2020.06.22-19.34.30:988][136]LogFileHelpers: Auto-saving content packages took 0.071
+[2020.06.22-19.37.05:766][ 53]BlueprintLog: New page: Compile BP_BUMPER
+[2020.06.22-19.37.05:819][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.06.22-19.37.06:868][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_BUMPER" FILE="C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Content/Blueprints/BP_BUMPER.uasset" SILENT=true
+[2020.06.22-19.37.06:917][105]LogSavePackage: Moving 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/BP_BUMPERD7949F514A0C5EBF35EDAA8C587DF894.tmp' to 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Content/Blueprints/BP_BUMPER.uasset'
+[2020.06.22-19.37.06:930][105]AssetCheck: New page: Asset Save: BP_BUMPER
+[2020.06.22-19.37.06:930][105]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_BUMPER.BP_BUMPER
+[2020.06.22-19.37.20:728][926]LogSlate: Window 'BP_BUMPER' being destroyed
+[2020.06.22-19.37.20:739][926]LogSlate: Window 'BP_BUMPER' being destroyed
+[2020.06.22-19.37.20:740][926]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-19.37.20:740][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-19.37.23:759][116]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PinballPlayerController.PinballPlayerController
+[2020.06.22-19.37.42:937][178]LogSlate: Window 'PinballPlayerController' being destroyed
+[2020.06.22-19.37.42:946][178]LogSlate: Window 'PinballPlayerController' being destroyed
+[2020.06.22-19.37.42:947][178]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-19.37.42:947][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-19.37.44:938][313]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PinballGameMode.PinballGameMode
+[2020.06.22-19.49.52:824][866]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Plunger.BP_Plunger
+[2020.06.22-19.50.12:335][936]LogRenderer: Reallocating scene render targets to support 912x536 Format 10 NumSamples 1 (Frame:1).
+[2020.06.22-19.51.04:869][341]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2020.06.22-19.51.04:954][341]LogSavePackage: Moving 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/pinball_Praharsh_Auto47EDD54374BB82AC2F19D48807FB7C30B.tmp' to 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Autosaves/Game/pinball_Praharsh_Auto4.umap'
+[2020.06.22-19.51.04:957][341]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/pinball_Praharsh' took 0.125
+[2020.06.22-19.51.04:957][341]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.125
+[2020.06.22-19.51.04:957][341]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Plunger] ([1] browsable assets)...
+[2020.06.22-19.51.04:994][341]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Plunger.BP_Plunger]
+[2020.06.22-19.51.04:994][341]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Plunger]
+[2020.06.22-19.51.05:066][341]LogSavePackage: Moving 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/BP_Plunger_Auto49B05EE3C4BBE3356BF1000B1035DAECB.tmp' to 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Autosaves/Game/Blueprints/BP_Plunger_Auto4.uasset'
+[2020.06.22-19.51.05:067][341]LogFileHelpers: Auto-saving content packages took 0.110
+[2020.06.22-20.01.05:444][646]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2020.06.22-20.01.05:522][646]LogSavePackage: Moving 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/pinball_Praharsh_Auto5F17C83E7462B3DF71528E6B999DC3E06.tmp' to 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Autosaves/Game/pinball_Praharsh_Auto5.umap'
+[2020.06.22-20.01.05:525][646]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/pinball_Praharsh' took 0.114
+[2020.06.22-20.01.05:525][646]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.114
+[2020.06.22-20.01.05:525][646]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Plunger] ([1] browsable assets)...
+[2020.06.22-20.01.05:560][646]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Plunger.BP_Plunger]
+[2020.06.22-20.01.05:560][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Plunger]
+[2020.06.22-20.01.05:664][646]LogSavePackage: Moving 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/BP_Plunger_Auto50C9DB4A94AFEE26B35CC94B7F5BDEB56.tmp' to 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Autosaves/Game/Blueprints/BP_Plunger_Auto5.uasset'
+[2020.06.22-20.01.05:666][646]LogFileHelpers: Auto-saving content packages took 0.141
+[2020.06.22-20.01.40:919][292]BlueprintLog: New page: Compile BP_Plunger
+[2020.06.22-20.01.40:995][292]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.06.22-20.01.41:916][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Plunger" FILE="C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Content/Blueprints/BP_Plunger.uasset" SILENT=true
+[2020.06.22-20.01.42:001][338]LogSavePackage: Moving 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/BP_Plunger5F0D59AE4A8B4D22D5443DBC3477B973.tmp' to 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Content/Blueprints/BP_Plunger.uasset'
+[2020.06.22-20.01.42:021][338]AssetCheck: New page: Asset Save: BP_Plunger
+[2020.06.22-20.01.42:021][338]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Plunger.BP_Plunger
+[2020.06.22-20.01.43:551][426]LogSlate: Window 'BP_Plunger' being destroyed
+[2020.06.22-20.01.43:554][426]LogSlate: Window 'BP_Plunger' being destroyed
+[2020.06.22-20.01.43:555][426]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.01.43:555][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.01.43:639][426]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.06.22-20.01.43:639][426]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.01.43:639][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.01.45:215][524]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PinballGameMode.PinballGameMode
+[2020.06.22-20.08.56:104][421]LogSlate: Window 'PinballGameMode' being destroyed
+[2020.06.22-20.08.56:107][421]LogSlate: Window 'PinballGameMode' being destroyed
+[2020.06.22-20.08.56:108][421]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.08.56:108][421]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.09.00:536][502]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PinballGameMode.PinballGameMode
+[2020.06.22-20.09.49:607][105]LogSlate: Window 'PinballGameMode' being destroyed
+[2020.06.22-20.09.49:616][105]LogSlate: Window 'PinballGameMode' being destroyed
+[2020.06.22-20.09.49:617][105]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.09.49:617][105]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.09.56:298][491]Cmd: SELECT NONE
+[2020.06.22-20.09.58:170][600]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.22-20.09.58:218][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-20.09.58:220][600]PIE: New page: PIE session: pinball_Praharsh (23-Jun-2020, 7:09:58 am)
+[2020.06.22-20.09.58:222][600]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.06.22-20.09.58:224][600]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.06.22-20.09.58:224][600]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.09.58:235][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010826s)
+[2020.06.22-20.09.58:237][600]LogAIModule: Creating AISystem for world pinball_Praharsh
+[2020.06.22-20.09.58:237][600]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E02E37F000), frame # 128600
+[2020.06.22-20.09.58:237][600]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E00B22E700), frame # 128600
+[2020.06.22-20.09.58:237][600]LogPlayLevel: PIE: World Init took: (0.001803s)
+[2020.06.22-20.09.58:237][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/pinball_Praharsh.pinball_Praharsh to /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh (0.012875s)
+[2020.06.22-20.09.58:274][600]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2020.06.22-20.09.58:278][600]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.22-20.09.58:278][600]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.22-20.09.58:278][600]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.22-20.09.58:279][600]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.22-20.09.58:279][600]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.22-20.09.58:279][600]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.22-20.09.58:279][600]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.22-20.09.58:279][600]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.22-20.09.58:279][600]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.22-20.09.58:279][600]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.22-20.09.58:282][600]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.22-20.09.58:282][600]LogAudioMixer: Display: 1: FrontRight
+[2020.06.22-20.09.58:380][600]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2020.06.22-20.09.58:381][600]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.22-20.09.58:381][600]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.22-20.09.58:381][600]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.22-20.09.58:382][600]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.22-20.09.58:398][600]LogInit: FAudioDevice initialized.
+[2020.06.22-20.09.58:419][600]LogLoad: Game class is 'PinballGameMode_C'
+[2020.06.22-20.09.58:424][600]LogWorld: Bringing World /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh up for play (max tick rate 60) at 2020.06.23-01.39.58
+[2020.06.22-20.09.58:424][600]LogWorld: Bringing up level for play took: 0.002081
+[2020.06.22-20.09.58:424][600]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.06.22-20.09.58:442][600]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0020 seconds. Added 20 classes and 0 folders.
+[2020.06.22-20.09.58:446][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.09.58:476][600]PIE: Server logged in
+[2020.06.22-20.09.58:476][600]PIE: Play in editor total start time 0.259 seconds.
+[2020.06.22-20.10.04:983][959]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.04:993][959]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.22-20.10.05:013][959]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.22-20.10.05:014][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.05:014][959]LogWorld: BeginTearingDown for /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.10.05:014][959]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.05:014][959]LogWorld: UWorld::CleanupWorld for pinball_Praharsh, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.10.05:014][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.10.05:021][959]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-20.10.05:025][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.10.05:049][959]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.05:073][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.05:098][959]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E02E37F000), frame # 128959
+[2020.06.22-20.10.05:099][959]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E00B22E700), frame # 128959
+[2020.06.22-20.10.05:166][959]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.06.22-20.10.05:206][960]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.06.22-20.10.07:028][ 60]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.22-20.10.07:049][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-20.10.07:049][ 60]PIE: New page: PIE session: pinball_Praharsh (23-Jun-2020, 7:10:07 am)
+[2020.06.22-20.10.07:049][ 60]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.10.07:056][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006679s)
+[2020.06.22-20.10.07:057][ 60]LogAIModule: Creating AISystem for world pinball_Praharsh
+[2020.06.22-20.10.07:057][ 60]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E091102A00), frame # 129060
+[2020.06.22-20.10.07:057][ 60]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E05F835440), frame # 129060
+[2020.06.22-20.10.07:057][ 60]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2020.06.22-20.10.07:057][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/pinball_Praharsh.pinball_Praharsh to /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh (0.007892s)
+[2020.06.22-20.10.07:132][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.06.22-20.10.07:134][ 60]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.22-20.10.07:134][ 60]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.22-20.10.07:134][ 60]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.22-20.10.07:134][ 60]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.22-20.10.07:134][ 60]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.22-20.10.07:134][ 60]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.22-20.10.07:134][ 60]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.22-20.10.07:134][ 60]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.22-20.10.07:134][ 60]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.22-20.10.07:134][ 60]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.22-20.10.07:136][ 60]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.22-20.10.07:136][ 60]LogAudioMixer: Display: 1: FrontRight
+[2020.06.22-20.10.07:228][ 60]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2020.06.22-20.10.07:228][ 60]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.22-20.10.07:228][ 60]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.22-20.10.07:229][ 60]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.22-20.10.07:229][ 60]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.22-20.10.07:244][ 60]LogInit: FAudioDevice initialized.
+[2020.06.22-20.10.07:251][ 60]LogLoad: Game class is 'PinballGameMode_C'
+[2020.06.22-20.10.07:253][ 60]LogWorld: Bringing World /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh up for play (max tick rate 60) at 2020.06.23-01.40.07
+[2020.06.22-20.10.07:253][ 60]LogWorld: Bringing up level for play took: 0.001039
+[2020.06.22-20.10.07:253][ 60]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.06.22-20.10.07:283][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.07:283][ 60]PIE: Server logged in
+[2020.06.22-20.10.07:284][ 60]PIE: Play in editor total start time 0.236 seconds.
+[2020.06.22-20.10.07:975][ 97]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.07:992][ 97]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.22-20.10.08:012][ 97]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.22-20.10.08:014][ 97]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.08:014][ 97]LogWorld: BeginTearingDown for /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.10.08:014][ 97]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.08:014][ 97]LogWorld: UWorld::CleanupWorld for pinball_Praharsh, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.10.08:014][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.10.08:020][ 97]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-20.10.08:024][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.10.08:041][ 97]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.08:063][ 97]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.08:064][ 97]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E05F835440), frame # 129097
+[2020.06.22-20.10.08:064][ 97]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E091102A00), frame # 129097
+[2020.06.22-20.10.08:066][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.06.22-20.10.08:098][ 98]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.06.22-20.10.10:470][235]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2020.06.22-20.10.11:510][296]Cmd: DELETE
+[2020.06.22-20.10.11:510][296]Cmd: ACTOR DELETE
+[2020.06.22-20.10.11:513][296]LogEditorActor: Deleted Actor: BP_Ball_C
+[2020.06.22-20.10.11:533][296]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2020.06.22-20.10.11:536][296]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2020.06.22-20.10.12:526][356]Cmd: SELECT NONE
+[2020.06.22-20.10.13:503][412]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.22-20.10.13:528][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-20.10.13:528][412]PIE: New page: PIE session: pinball_Praharsh (23-Jun-2020, 7:10:13 am)
+[2020.06.22-20.10.13:528][412]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.10.13:535][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006505s)
+[2020.06.22-20.10.13:536][412]LogAIModule: Creating AISystem for world pinball_Praharsh
+[2020.06.22-20.10.13:536][412]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E00D728200), frame # 129412
+[2020.06.22-20.10.13:536][412]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E00BD06840), frame # 129412
+[2020.06.22-20.10.13:536][412]LogPlayLevel: PIE: World Init took: (0.001119s)
+[2020.06.22-20.10.13:536][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/pinball_Praharsh.pinball_Praharsh to /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh (0.007804s)
+[2020.06.22-20.10.13:554][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.06.22-20.10.13:555][412]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.22-20.10.13:555][412]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.22-20.10.13:555][412]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.22-20.10.13:555][412]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.22-20.10.13:555][412]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.22-20.10.13:555][412]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.22-20.10.13:555][412]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.22-20.10.13:555][412]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.22-20.10.13:556][412]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.22-20.10.13:556][412]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.22-20.10.13:558][412]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.22-20.10.13:558][412]LogAudioMixer: Display: 1: FrontRight
+[2020.06.22-20.10.13:658][412]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2020.06.22-20.10.13:658][412]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.22-20.10.13:658][412]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.22-20.10.13:658][412]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.22-20.10.13:658][412]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.22-20.10.13:677][412]LogInit: FAudioDevice initialized.
+[2020.06.22-20.10.13:691][412]LogLoad: Game class is 'PinballGameMode_C'
+[2020.06.22-20.10.13:693][412]LogWorld: Bringing World /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh up for play (max tick rate 60) at 2020.06.23-01.40.13
+[2020.06.22-20.10.13:694][412]LogWorld: Bringing up level for play took: 0.001644
+[2020.06.22-20.10.13:694][412]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.06.22-20.10.13:696][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.13:697][412]PIE: Server logged in
+[2020.06.22-20.10.13:698][412]PIE: Play in editor total start time 0.169 seconds.
+[2020.06.22-20.10.14:341][448]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.14:343][448]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.22-20.10.14:363][448]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.22-20.10.14:364][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.14:364][448]LogWorld: BeginTearingDown for /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.10.14:364][448]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.14:364][448]LogWorld: UWorld::CleanupWorld for pinball_Praharsh, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.10.14:364][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.10.14:374][448]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-20.10.14:379][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.10.14:398][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.14:398][448]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.14:421][448]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E00BD06840), frame # 129448
+[2020.06.22-20.10.14:422][448]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E00D728200), frame # 129448
+[2020.06.22-20.10.14:424][448]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.06.22-20.10.14:456][449]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.06.22-20.10.15:125][484]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.22-20.10.15:150][484]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-20.10.15:150][484]PIE: New page: PIE session: pinball_Praharsh (23-Jun-2020, 7:10:15 am)
+[2020.06.22-20.10.15:150][484]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.10.15:156][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006502s)
+[2020.06.22-20.10.15:157][484]LogAIModule: Creating AISystem for world pinball_Praharsh
+[2020.06.22-20.10.15:157][484]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E012F2E200), frame # 129484
+[2020.06.22-20.10.15:157][484]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E00A317D80), frame # 129484
+[2020.06.22-20.10.15:157][484]LogPlayLevel: PIE: World Init took: (0.001133s)
+[2020.06.22-20.10.15:157][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/pinball_Praharsh.pinball_Praharsh to /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh (0.007752s)
+[2020.06.22-20.10.15:176][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.06.22-20.10.15:177][484]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.22-20.10.15:177][484]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.22-20.10.15:177][484]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.22-20.10.15:177][484]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.22-20.10.15:177][484]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.22-20.10.15:177][484]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.22-20.10.15:177][484]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.22-20.10.15:177][484]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.22-20.10.15:177][484]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.22-20.10.15:177][484]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.22-20.10.15:179][484]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.22-20.10.15:179][484]LogAudioMixer: Display: 1: FrontRight
+[2020.06.22-20.10.15:274][484]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2020.06.22-20.10.15:274][484]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.22-20.10.15:274][484]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.22-20.10.15:274][484]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.22-20.10.15:275][484]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.22-20.10.15:289][484]LogInit: FAudioDevice initialized.
+[2020.06.22-20.10.15:299][484]LogLoad: Game class is 'PinballGameMode_C'
+[2020.06.22-20.10.15:301][484]LogWorld: Bringing World /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh up for play (max tick rate 60) at 2020.06.23-01.40.15
+[2020.06.22-20.10.15:301][484]LogWorld: Bringing up level for play took: 0.001061
+[2020.06.22-20.10.15:301][484]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.06.22-20.10.15:304][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.15:305][484]PIE: Server logged in
+[2020.06.22-20.10.15:305][484]PIE: Play in editor total start time 0.156 seconds.
+[2020.06.22-20.10.15:899][515]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.15:902][515]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.22-20.10.15:922][515]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.22-20.10.15:924][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.15:924][515]LogWorld: BeginTearingDown for /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.10.15:924][515]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.15:924][515]LogWorld: UWorld::CleanupWorld for pinball_Praharsh, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.10.15:924][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.10.15:934][515]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-20.10.15:938][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.10.15:957][515]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.15:979][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.15:980][515]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E00A317D80), frame # 129515
+[2020.06.22-20.10.15:980][515]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E012F2E200), frame # 129515
+[2020.06.22-20.10.15:981][515]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.06.22-20.10.16:015][516]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.06.22-20.10.17:153][581]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.22-20.10.17:178][581]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-20.10.17:178][581]PIE: New page: PIE session: pinball_Praharsh (23-Jun-2020, 7:10:17 am)
+[2020.06.22-20.10.17:178][581]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.10.17:186][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007906s)
+[2020.06.22-20.10.17:187][581]LogAIModule: Creating AISystem for world pinball_Praharsh
+[2020.06.22-20.10.17:187][581]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E03ECA0200), frame # 129581
+[2020.06.22-20.10.17:187][581]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E0071516C0), frame # 129581
+[2020.06.22-20.10.17:187][581]LogPlayLevel: PIE: World Init took: (0.001413s)
+[2020.06.22-20.10.17:187][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/pinball_Praharsh.pinball_Praharsh to /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh (0.009457s)
+[2020.06.22-20.10.17:207][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.06.22-20.10.17:208][581]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.22-20.10.17:208][581]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.22-20.10.17:208][581]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.22-20.10.17:208][581]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.22-20.10.17:208][581]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.22-20.10.17:208][581]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.22-20.10.17:208][581]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.22-20.10.17:208][581]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.22-20.10.17:209][581]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.22-20.10.17:209][581]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.22-20.10.17:211][581]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.22-20.10.17:211][581]LogAudioMixer: Display: 1: FrontRight
+[2020.06.22-20.10.17:304][581]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2020.06.22-20.10.17:304][581]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.22-20.10.17:304][581]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.22-20.10.17:304][581]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.22-20.10.17:304][581]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.22-20.10.17:319][581]LogInit: FAudioDevice initialized.
+[2020.06.22-20.10.17:327][581]LogLoad: Game class is 'PinballGameMode_C'
+[2020.06.22-20.10.17:329][581]LogWorld: Bringing World /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh up for play (max tick rate 60) at 2020.06.23-01.40.17
+[2020.06.22-20.10.17:329][581]LogWorld: Bringing up level for play took: 0.000835
+[2020.06.22-20.10.17:329][581]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.06.22-20.10.17:331][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.17:332][581]PIE: Server logged in
+[2020.06.22-20.10.17:333][581]PIE: Play in editor total start time 0.156 seconds.
+[2020.06.22-20.10.21:571][831]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.21:583][831]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.22-20.10.21:603][831]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.22-20.10.21:604][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.21:604][831]LogWorld: BeginTearingDown for /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.10.21:604][831]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.21:604][831]LogWorld: UWorld::CleanupWorld for pinball_Praharsh, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.10.21:604][831]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.10.21:610][831]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-20.10.21:614][831]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.10.21:631][831]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.21:651][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.21:652][831]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E0071516C0), frame # 129831
+[2020.06.22-20.10.21:652][831]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E03ECA0200), frame # 129831
+[2020.06.22-20.10.21:654][831]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.06.22-20.10.21:686][832]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.06.22-20.10.22:194][859]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.22-20.10.22:218][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-20.10.22:218][859]PIE: New page: PIE session: pinball_Praharsh (23-Jun-2020, 7:10:22 am)
+[2020.06.22-20.10.22:219][859]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.10.22:226][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007129s)
+[2020.06.22-20.10.22:227][859]LogAIModule: Creating AISystem for world pinball_Praharsh
+[2020.06.22-20.10.22:227][859]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E0247E5000), frame # 129859
+[2020.06.22-20.10.22:227][859]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E008034E00), frame # 129859
+[2020.06.22-20.10.22:227][859]LogPlayLevel: PIE: World Init took: (0.001251s)
+[2020.06.22-20.10.22:227][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/pinball_Praharsh.pinball_Praharsh to /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh (0.008521s)
+[2020.06.22-20.10.22:246][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.06.22-20.10.22:247][859]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.22-20.10.22:247][859]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.22-20.10.22:247][859]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.22-20.10.22:247][859]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.22-20.10.22:247][859]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.22-20.10.22:247][859]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.22-20.10.22:247][859]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.22-20.10.22:247][859]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.22-20.10.22:247][859]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.22-20.10.22:247][859]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.22-20.10.22:250][859]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.22-20.10.22:250][859]LogAudioMixer: Display: 1: FrontRight
+[2020.06.22-20.10.22:349][859]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2020.06.22-20.10.22:350][859]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.22-20.10.22:350][859]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.22-20.10.22:350][859]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.22-20.10.22:350][859]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.22-20.10.22:368][859]LogInit: FAudioDevice initialized.
+[2020.06.22-20.10.22:379][859]LogLoad: Game class is 'PinballGameMode_C'
+[2020.06.22-20.10.22:381][859]LogWorld: Bringing World /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh up for play (max tick rate 60) at 2020.06.23-01.40.22
+[2020.06.22-20.10.22:381][859]LogWorld: Bringing up level for play took: 0.001068
+[2020.06.22-20.10.22:381][859]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.06.22-20.10.22:384][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.22:385][859]PIE: Server logged in
+[2020.06.22-20.10.22:385][859]PIE: Play in editor total start time 0.168 seconds.
+[2020.06.22-20.10.23:020][894]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.23:033][894]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.22-20.10.23:053][894]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.22-20.10.23:054][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.23:054][894]LogWorld: BeginTearingDown for /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.10.23:054][894]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.23:054][894]LogWorld: UWorld::CleanupWorld for pinball_Praharsh, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.10.23:054][894]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.10.23:061][894]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-20.10.23:064][894]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.10.23:082][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.23:082][894]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.23:109][894]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E008034E00), frame # 129894
+[2020.06.22-20.10.23:109][894]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E0247E5000), frame # 129894
+[2020.06.22-20.10.23:111][894]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.06.22-20.10.23:144][895]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.06.22-20.10.24:195][958]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.22-20.10.24:217][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-20.10.24:217][958]PIE: New page: PIE session: pinball_Praharsh (23-Jun-2020, 7:10:24 am)
+[2020.06.22-20.10.24:217][958]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.10.24:224][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006756s)
+[2020.06.22-20.10.24:225][958]LogAIModule: Creating AISystem for world pinball_Praharsh
+[2020.06.22-20.10.24:225][958]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E002A78200), frame # 129958
+[2020.06.22-20.10.24:225][958]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E003393D80), frame # 129958
+[2020.06.22-20.10.24:225][958]LogPlayLevel: PIE: World Init took: (0.001231s)
+[2020.06.22-20.10.24:225][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/pinball_Praharsh.pinball_Praharsh to /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh (0.008143s)
+[2020.06.22-20.10.24:245][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.06.22-20.10.24:246][958]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.22-20.10.24:246][958]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.22-20.10.24:246][958]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.22-20.10.24:246][958]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.22-20.10.24:246][958]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.22-20.10.24:246][958]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.22-20.10.24:246][958]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.22-20.10.24:246][958]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.22-20.10.24:247][958]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.22-20.10.24:247][958]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.22-20.10.24:249][958]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.22-20.10.24:249][958]LogAudioMixer: Display: 1: FrontRight
+[2020.06.22-20.10.24:343][958]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2020.06.22-20.10.24:344][958]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.22-20.10.24:344][958]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.22-20.10.24:344][958]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.22-20.10.24:344][958]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.22-20.10.24:359][958]LogInit: FAudioDevice initialized.
+[2020.06.22-20.10.24:366][958]LogLoad: Game class is 'PinballGameMode_C'
+[2020.06.22-20.10.24:367][958]LogWorld: Bringing World /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh up for play (max tick rate 60) at 2020.06.23-01.40.24
+[2020.06.22-20.10.24:368][958]LogWorld: Bringing up level for play took: 0.000916
+[2020.06.22-20.10.24:368][958]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.06.22-20.10.24:370][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.24:370][958]PIE: Server logged in
+[2020.06.22-20.10.24:371][958]PIE: Play in editor total start time 0.155 seconds.
+[2020.06.22-20.10.48:240][242]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.48:253][242]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.22-20.10.48:273][242]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.22-20.10.48:274][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.48:274][242]LogWorld: BeginTearingDown for /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.10.48:274][242]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.48:274][242]LogWorld: UWorld::CleanupWorld for pinball_Praharsh, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.10.48:274][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.10.48:285][242]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-20.10.48:288][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.10.48:307][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.48:307][242]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.10.48:330][242]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E003393D80), frame # 131242
+[2020.06.22-20.10.48:330][242]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E002A78200), frame # 131242
+[2020.06.22-20.10.48:332][242]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.06.22-20.10.48:373][243]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.06.22-20.10.48:474][246]Cmd: SELECT NONE
+[2020.06.22-20.10.48:917][269]Cmd: SELECT NONE
+[2020.06.22-20.10.58:550][843]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.22-20.10.58:571][843]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-20.10.58:572][843]PIE: New page: PIE session: pinball_Praharsh (23-Jun-2020, 7:10:58 am)
+[2020.06.22-20.10.58:572][843]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.10.58:579][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007043s)
+[2020.06.22-20.10.58:580][843]LogAIModule: Creating AISystem for world pinball_Praharsh
+[2020.06.22-20.10.58:580][843]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E033828600), frame # 131843
+[2020.06.22-20.10.58:580][843]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E008034F40), frame # 131843
+[2020.06.22-20.10.58:580][843]LogPlayLevel: PIE: World Init took: (0.001131s)
+[2020.06.22-20.10.58:580][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/pinball_Praharsh.pinball_Praharsh to /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh (0.008318s)
+[2020.06.22-20.10.58:602][843]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.06.22-20.10.58:606][843]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.22-20.10.58:606][843]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.22-20.10.58:606][843]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.22-20.10.58:606][843]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.22-20.10.58:606][843]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.22-20.10.58:606][843]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.22-20.10.58:606][843]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.22-20.10.58:606][843]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.22-20.10.58:606][843]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.22-20.10.58:607][843]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.22-20.10.58:610][843]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.22-20.10.58:610][843]LogAudioMixer: Display: 1: FrontRight
+[2020.06.22-20.10.58:704][843]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2020.06.22-20.10.58:704][843]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.22-20.10.58:704][843]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.22-20.10.58:704][843]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.22-20.10.58:704][843]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.22-20.10.58:719][843]LogInit: FAudioDevice initialized.
+[2020.06.22-20.10.58:728][843]LogLoad: Game class is 'PinballGameMode_C'
+[2020.06.22-20.10.58:729][843]LogWorld: Bringing World /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh up for play (max tick rate 60) at 2020.06.23-01.40.58
+[2020.06.22-20.10.58:730][843]LogWorld: Bringing up level for play took: 0.000861
+[2020.06.22-20.10.58:730][843]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.06.22-20.10.58:732][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.10.58:733][843]PIE: Server logged in
+[2020.06.22-20.10.58:734][843]PIE: Play in editor total start time 0.163 seconds.
+[2020.06.22-20.11.04:815][202]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.11.04:823][202]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.22-20.11.04:842][202]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.22-20.11.04:843][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.11.04:843][202]LogWorld: BeginTearingDown for /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.11.04:843][202]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.11.04:843][202]LogWorld: UWorld::CleanupWorld for pinball_Praharsh, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.11.04:843][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.11.04:854][202]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-20.11.04:858][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.11.04:878][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.11.04:878][202]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.11.04:902][202]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E008034F40), frame # 132202
+[2020.06.22-20.11.04:903][202]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E033828600), frame # 132202
+[2020.06.22-20.11.04:904][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.06.22-20.11.04:942][203]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.06.22-20.11.06:066][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PopBumperBase)
+[2020.06.22-20.11.14:929][771]Cmd: SELECT NONE
+[2020.06.22-20.11.20:212][ 87]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.22-20.11.20:233][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-20.11.20:234][ 87]PIE: New page: PIE session: pinball_Praharsh (23-Jun-2020, 7:11:20 am)
+[2020.06.22-20.11.20:234][ 87]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.11.20:241][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007145s)
+[2020.06.22-20.11.20:242][ 87]LogAIModule: Creating AISystem for world pinball_Praharsh
+[2020.06.22-20.11.20:242][ 87]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001DFD7489000), frame # 133087
+[2020.06.22-20.11.20:243][ 87]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E00AC66840), frame # 133087
+[2020.06.22-20.11.20:243][ 87]LogPlayLevel: PIE: World Init took: (0.001895s)
+[2020.06.22-20.11.20:243][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/pinball_Praharsh.pinball_Praharsh to /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh (0.009169s)
+[2020.06.22-20.11.20:262][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.06.22-20.11.20:265][ 87]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.22-20.11.20:265][ 87]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.22-20.11.20:265][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.22-20.11.20:265][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.22-20.11.20:265][ 87]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.22-20.11.20:265][ 87]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.22-20.11.20:265][ 87]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.22-20.11.20:265][ 87]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.22-20.11.20:265][ 87]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.22-20.11.20:265][ 87]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.22-20.11.20:268][ 87]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.22-20.11.20:268][ 87]LogAudioMixer: Display: 1: FrontRight
+[2020.06.22-20.11.20:363][ 87]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2020.06.22-20.11.20:363][ 87]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.22-20.11.20:363][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.22-20.11.20:363][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.22-20.11.20:364][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.22-20.11.20:378][ 87]LogInit: FAudioDevice initialized.
+[2020.06.22-20.11.20:386][ 87]LogLoad: Game class is 'PinballGameMode_C'
+[2020.06.22-20.11.20:388][ 87]LogWorld: Bringing World /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh up for play (max tick rate 60) at 2020.06.23-01.41.20
+[2020.06.22-20.11.20:388][ 87]LogWorld: Bringing up level for play took: 0.001194
+[2020.06.22-20.11.20:388][ 87]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.06.22-20.11.20:391][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.11.20:391][ 87]PIE: Server logged in
+[2020.06.22-20.11.20:392][ 87]PIE: Play in editor total start time 0.159 seconds.
+[2020.06.22-20.11.23:781][287]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.11.23:792][287]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.22-20.11.23:812][287]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.22-20.11.23:813][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.11.23:813][287]LogWorld: BeginTearingDown for /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.11.23:813][287]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.11.23:813][287]LogWorld: UWorld::CleanupWorld for pinball_Praharsh, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.11.23:814][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.11.23:821][287]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-20.11.23:824][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.11.23:846][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.11.23:846][287]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.11.23:871][287]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E00AC66840), frame # 133287
+[2020.06.22-20.11.23:871][287]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001DFD7489000), frame # 133287
+[2020.06.22-20.11.23:873][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.06.22-20.11.23:905][288]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.06.22-20.11.25:340][371]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PopBumperBase)
+[2020.06.22-20.11.27:818][517]Cmd: SELECT NONE
+[2020.06.22-20.11.29:321][605]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.22-20.11.29:344][605]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-20.11.29:344][605]PIE: New page: PIE session: pinball_Praharsh (23-Jun-2020, 7:11:29 am)
+[2020.06.22-20.11.29:344][605]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.11.29:351][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006985s)
+[2020.06.22-20.11.29:352][605]LogAIModule: Creating AISystem for world pinball_Praharsh
+[2020.06.22-20.11.29:353][605]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E013268600), frame # 133605
+[2020.06.22-20.11.29:353][605]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E00898BD80), frame # 133605
+[2020.06.22-20.11.29:353][605]LogPlayLevel: PIE: World Init took: (0.001474s)
+[2020.06.22-20.11.29:353][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/pinball_Praharsh.pinball_Praharsh to /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh (0.008615s)
+[2020.06.22-20.11.29:374][605]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.06.22-20.11.29:375][605]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.22-20.11.29:375][605]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.22-20.11.29:375][605]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.22-20.11.29:375][605]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.22-20.11.29:375][605]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.22-20.11.29:375][605]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.22-20.11.29:375][605]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.22-20.11.29:375][605]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.22-20.11.29:376][605]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.22-20.11.29:376][605]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.22-20.11.29:378][605]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.22-20.11.29:378][605]LogAudioMixer: Display: 1: FrontRight
+[2020.06.22-20.11.29:472][605]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2020.06.22-20.11.29:472][605]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.22-20.11.29:472][605]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.22-20.11.29:473][605]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.22-20.11.29:473][605]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.22-20.11.29:488][605]LogInit: FAudioDevice initialized.
+[2020.06.22-20.11.29:496][605]LogLoad: Game class is 'PinballGameMode_C'
+[2020.06.22-20.11.29:497][605]LogWorld: Bringing World /Game/UEDPIE_0_pinball_Praharsh.pinball_Praharsh up for play (max tick rate 60) at 2020.06.23-01.41.29
+[2020.06.22-20.11.29:498][605]LogWorld: Bringing up level for play took: 0.000863
+[2020.06.22-20.11.29:498][605]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.06.22-20.11.29:500][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.11.29:500][605]PIE: Server logged in
+[2020.06.22-20.11.29:501][605]PIE: Play in editor total start time 0.157 seconds.
+[2020.06.22-20.11.32:848][800]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.11.32:863][800]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.22-20.11.32:883][800]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.22-20.11.32:884][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.11.32:884][800]LogWorld: BeginTearingDown for /Game/UEDPIE_0_pinball_Praharsh
+[2020.06.22-20.11.32:884][800]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.11.32:884][800]LogWorld: UWorld::CleanupWorld for pinball_Praharsh, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.11.32:884][800]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.11.32:892][800]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-20.11.32:895][800]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.11.32:913][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-20.11.32:913][800]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.11.32:935][800]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E00898BD80), frame # 133800
+[2020.06.22-20.11.32:935][800]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E013268600), frame # 133800
+[2020.06.22-20.11.32:937][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.06.22-20.11.32:975][801]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.06.22-20.11.37:152][ 30]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PinballGameMode.PinballGameMode
+[2020.06.22-20.12.05:461][602]LogSlate: Window 'PinballGameMode' being destroyed
+[2020.06.22-20.12.05:465][602]LogSlate: Window 'PinballGameMode' being destroyed
+[2020.06.22-20.12.05:466][602]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.12.05:466][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.12.07:941][739]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PinballPlayerController.PinballPlayerController
+[2020.06.22-20.13.12:562][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2020.06.22-20.13.12:676][ 43]LogSavePackage: Moving 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/pinball_Praharsh_Auto6D3C265964E2CC208E59ECFB786FFF018.tmp' to 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Autosaves/Game/pinball_Praharsh_Auto6.umap'
+[2020.06.22-20.13.12:681][ 43]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/pinball_Praharsh' took 0.160
+[2020.06.22-20.13.12:681][ 43]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.160
+[2020.06.22-20.13.12:682][ 43]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballGameMode] ([1] browsable assets)...
+[2020.06.22-20.13.12:682][ 43]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballGameMode]
+[2020.06.22-20.13.12:837][ 43]LogSavePackage: Moving 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/PinballGameMode_Auto643CD5FAD42B7EAA0AD2CBC95D92C6298.tmp' to 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto6.uasset'
+[2020.06.22-20.13.12:838][ 43]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballPlayerController] ([1] browsable assets)...
+[2020.06.22-20.13.12:838][ 43]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballPlayerController]
+[2020.06.22-20.13.12:928][ 43]LogSavePackage: Moving 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/PinballPlayerController_Auto67CE54C9F4F017052D61AA6B5471C2410.tmp' to 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/Autosaves/Game/Blueprints/PinballPlayerController_Auto6.uasset'
+[2020.06.22-20.13.12:929][ 43]LogFileHelpers: Auto-saving content packages took 0.249
+[2020.06.22-20.13.31:031][161]LogSlate: Window 'PinballPlayerController' being destroyed
+[2020.06.22-20.13.31:040][161]LogSlate: Window 'PinballPlayerController' being destroyed
+[2020.06.22-20.13.31:042][161]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.13.31:042][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-20.23.37:994][561]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.06.22-20.23.38:066][561]LogSavePackage: Moving 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/pinball_PraharshDC2538BD4C1012E518DA20958F60F660.tmp' to 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Content/pinball_Praharsh.umap'
+[2020.06.22-20.23.38:150][561]AssetCheck: New page: Asset Save: pinball_Praharsh
+[2020.06.22-20.23.38:150][561]LogContentValidation: Display: Validating World /Game/pinball_Praharsh.pinball_Praharsh
+[2020.06.22-20.23.39:125][615]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2020.06.22-20.23.41:518][615]LogSlate: Window 'Save Content' being destroyed
+[2020.06.22-20.23.41:556][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2020.06.22-20.23.41:626][615]LogSavePackage: Moving 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/PinballGameMode0203A0534DAC8F811BAB758E898C85C0.tmp' to 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Content/Blueprints/PinballGameMode.uasset'
+[2020.06.22-20.23.41:700][615]LogSavePackage: Moving 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Saved/PinballPlayerController1EADD09D4C8C54743F8B62934A174B90.tmp' to 'C:/Users/mohit/Documents/GitHub/UnrealEngine_Praharsh/Pinball_Praharsh/Content/Blueprints/PinballPlayerController.uasset'
+[2020.06.22-20.23.41:824][615]LogSlate: Window 'Pinball_Praharsh - Unreal Editor' being destroyed
+[2020.06.22-20.23.42:012][615]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.22-20.23.42:012][615]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PinballGameMode.PinballGameMode
+[2020.06.22-20.23.42:012][615]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PinballPlayerController.PinballPlayerController
+[2020.06.22-20.23.42:023][616]Cmd: QUIT_EDITOR
+[2020.06.22-20.23.42:023][616]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.06.22-20.23.42:032][616]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.06.22-20.23.42:033][616]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.22-20.23.42:814][616]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.06.22-20.23.42:833][616]LogExit: Preparing to exit.
+[2020.06.22-20.23.43:565][616]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.23.43:566][616]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.23.43:568][616]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.23.43:569][616]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.23.43:571][616]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.23.43:576][616]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.23.43:619][616]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.06.22-20.23.43:695][616]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-20.23.43:695][616]LogExit: Editor shut down
+[2020.06.22-20.23.43:697][616]LogExit: Transaction tracking system shut down
+[2020.06.22-20.23.43:911][616]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001DFCFEE6300), frame # 152616
+[2020.06.22-20.23.43:911][616]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001DFCFE66D40), frame # 152616
+[2020.06.22-20.23.43:911][616]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001DFCFEBDE00), frame # 152616
+[2020.06.22-20.23.43:928][616]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001DFB44BD800), frame # 152616
+[2020.06.22-20.23.43:928][616]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001DFB44B5E00), frame # 152616
+[2020.06.22-20.23.44:040][616]LogExit: Object subsystem successfully closed.
+[2020.06.22-20.23.44:060][616]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.06.22-20.23.44:083][616]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (798)
+[2020.06.22-20.23.44:083][616]LogModuleManager: Shutting down and abandoning module Voice (796)
+[2020.06.22-20.23.44:084][616]LogModuleManager: Shutting down and abandoning module BlueprintGraph (794)
+[2020.06.22-20.23.44:084][616]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (792)
+[2020.06.22-20.23.44:084][616]LogModuleManager: Shutting down and abandoning module SceneOutliner (790)
+[2020.06.22-20.23.44:084][616]LogModuleManager: Shutting down and abandoning module AddContentDialog (788)
+[2020.06.22-20.23.44:089][616]LogModuleManager: Shutting down and abandoning module WidgetCarousel (787)
+[2020.06.22-20.23.44:089][616]LogModuleManager: Shutting down and abandoning module EditorWidgets (784)
+[2020.06.22-20.23.44:089][616]LogModuleManager: Shutting down and abandoning module CollectionManager (782)
+[2020.06.22-20.23.44:089][616]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (780)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module StatsViewer (778)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (776)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module FoliageEdit (774)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module LandscapeEditor (772)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module MeshPaintMode (770)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (768)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module ActorPickerMode (766)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (764)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (762)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module AutomationWorker (760)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module SteamVREditor (758)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module OculusMR (756)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module GooglePADEditor (754)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (752)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (750)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (748)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (746)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (744)
+[2020.06.22-20.23.44:090][616]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (742)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (740)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (738)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (736)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module WebMMedia (734)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (732)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (730)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module SequenceRecorder (729)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (726)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (724)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (722)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (720)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (718)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (716)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (714)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (712)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (710)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (708)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module PlanarCut (706)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module CharacterAI (704)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module TextureAlignMode (702)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module BspMode (700)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module PlacementMode (699)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module GeometryMode (696)
+[2020.06.22-20.23.44:091][616]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (694)
+[2020.06.22-20.23.44:092][616]LogModuleManager: Shutting down and abandoning module SmartSnapping (692)
+[2020.06.22-20.23.44:092][616]LogModuleManager: Shutting down and abandoning module SessionServices (690)
+[2020.06.22-20.23.44:092][616]LogModuleManager: Shutting down and abandoning module MeshPaint (688)
+[2020.06.22-20.23.44:092][616]LogModuleManager: Shutting down and abandoning module ViewportSnapping (686)
+[2020.06.22-20.23.44:092][616]LogModuleManager: Shutting down and abandoning module ViewportInteraction (684)
+[2020.06.22-20.23.44:092][616]LogModuleManager: Shutting down and abandoning module ClothPainter (682)
+[2020.06.22-20.23.44:093][616]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (681)
+[2020.06.22-20.23.44:093][616]LogModuleManager: Shutting down and abandoning module LogVisualizer (678)
+[2020.06.22-20.23.44:093][616]LogModuleManager: Shutting down and abandoning module IntroTutorials (676)
+[2020.06.22-20.23.44:093][616]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (675)
+[2020.06.22-20.23.44:093][616]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (672)
+[2020.06.22-20.23.44:093][616]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (670)
+[2020.06.22-20.23.44:093][616]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (668)
+[2020.06.22-20.23.44:093][616]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (667)
+[2020.06.22-20.23.45:508][616]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (664)
+[2020.06.22-20.23.45:508][616]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (662)
+[2020.06.22-20.23.45:508][616]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (660)
+[2020.06.22-20.23.45:508][616]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (658)
+[2020.06.22-20.23.45:508][616]LogModuleManager: Shutting down and abandoning module TraceInsights (656)
+[2020.06.22-20.23.45:508][616]LogModuleManager: Shutting down and abandoning module TraceServices (655)
+[2020.06.22-20.23.45:509][616]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (652)
+[2020.06.22-20.23.45:509][616]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (650)
+[2020.06.22-20.23.45:509][616]LogModuleManager: Shutting down and abandoning module InputBindingEditor (648)
+[2020.06.22-20.23.45:509][616]LogModuleManager: Shutting down and abandoning module MergeActors (646)
+[2020.06.22-20.23.45:509][616]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (644)
+[2020.06.22-20.23.45:509][616]LogModuleManager: Shutting down and abandoning module LocalizationService (643)
+[2020.06.22-20.23.45:509][616]LogModuleManager: Shutting down and abandoning module HardwareTargeting (640)
+[2020.06.22-20.23.45:509][616]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (638)
+[2020.06.22-20.23.45:509][616]LogModuleManager: Shutting down and abandoning module UndoHistory (636)
+[2020.06.22-20.23.45:509][616]LogModuleManager: Shutting down and abandoning module XmlParser (634)
+[2020.06.22-20.23.45:509][616]LogModuleManager: Shutting down and abandoning module Blutility (632)
+[2020.06.22-20.23.45:509][616]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (630)
+[2020.06.22-20.23.45:509][616]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (629)
+[2020.06.22-20.23.45:510][616]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (626)
+[2020.06.22-20.23.45:510][616]LogModuleManager: Shutting down and abandoning module SettingsEditor (624)
+[2020.06.22-20.23.45:510][616]LogModuleManager: Shutting down and abandoning module ProjectLauncher (622)
+[2020.06.22-20.23.45:510][616]LogModuleManager: Shutting down and abandoning module SessionFrontend (620)
+[2020.06.22-20.23.45:510][616]LogModuleManager: Shutting down and abandoning module ProfilerClient (618)
+[2020.06.22-20.23.45:510][616]LogModuleManager: Shutting down and abandoning module DeviceManager (616)
+[2020.06.22-20.23.45:510][616]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (615)
+[2020.06.22-20.23.45:545][616]LogModuleManager: Shutting down and abandoning module AutomationController (612)
+[2020.06.22-20.23.45:545][616]LogModuleManager: Shutting down and abandoning module AutomationWindow (610)
+[2020.06.22-20.23.45:545][616]LogModuleManager: Shutting down and abandoning module Layers (608)
+[2020.06.22-20.23.45:545][616]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (606)
+[2020.06.22-20.23.45:545][616]LogModuleManager: Shutting down and abandoning module DetailCustomizations (604)
+[2020.06.22-20.23.45:545][616]LogModuleManager: Shutting down and abandoning module PackagesDialog (602)
+[2020.06.22-20.23.45:545][616]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (600)
+[2020.06.22-20.23.45:545][616]LogModuleManager: Shutting down and abandoning module Persona (598)
+[2020.06.22-20.23.45:545][616]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (597)
+[2020.06.22-20.23.45:545][616]LogModuleManager: Shutting down and abandoning module AnimGraph (595)
+[2020.06.22-20.23.45:545][616]LogModuleManager: Shutting down and abandoning module Kismet (592)
+[2020.06.22-20.23.45:560][616]LogModuleManager: Shutting down and abandoning module KismetWidgets (591)
+[2020.06.22-20.23.45:560][616]LogModuleManager: Shutting down and abandoning module GraphEditor (588)
+[2020.06.22-20.23.45:560][616]LogModuleManager: Shutting down and abandoning module StructViewer (586)
+[2020.06.22-20.23.45:560][616]LogModuleManager: Shutting down and abandoning module ClassViewer (584)
+[2020.06.22-20.23.45:562][616]LogModuleManager: Shutting down and abandoning module Toolbox (582)
+[2020.06.22-20.23.45:562][616]LogModuleManager: Shutting down and abandoning module ModuleUI (580)
+[2020.06.22-20.23.45:562][616]LogModuleManager: Shutting down and abandoning module OutputLog (578)
+[2020.06.22-20.23.45:564][616]LogModuleManager: Shutting down and abandoning module GammaUI (576)
+[2020.06.22-20.23.45:564][616]LogModuleManager: Shutting down and abandoning module Documentation (574)
+[2020.06.22-20.23.45:568][616]LogModuleManager: Shutting down and abandoning module LiveCoding (572)
+[2020.06.22-20.23.45:569][616]LogModuleManager: Shutting down and abandoning module LevelSequence (570)
+[2020.06.22-20.23.45:569][616]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (568)
+[2020.06.22-20.23.45:569][616]LogModuleManager: Shutting down and abandoning module MovieScene (566)
+[2020.06.22-20.23.45:569][616]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (564)
+[2020.06.22-20.23.45:569][616]LogModuleManager: Shutting down and abandoning module LauncherPlatform (562)
+[2020.06.22-20.23.45:569][616]LogModuleManager: Shutting down and abandoning module AnalyticsET (560)
+[2020.06.22-20.23.45:569][616]LogModuleManager: Shutting down and abandoning module PortalServices (558)
+[2020.06.22-20.23.45:569][616]LogModuleManager: Shutting down and abandoning module PortalRpc (556)
+[2020.06.22-20.23.45:569][616]LogModuleManager: Shutting down and abandoning module MessagingRpc (554)
+[2020.06.22-20.23.45:569][616]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (552)
+[2020.06.22-20.23.45:569][616]LogModuleManager: Shutting down and abandoning module AudioMixerCore (551)
+[2020.06.22-20.23.45:569][616]LogModuleManager: Shutting down and abandoning module AIModule (548)
+[2020.06.22-20.23.45:569][616]LogModuleManager: Shutting down and abandoning module GameplayDebugger (547)
+[2020.06.22-20.23.45:569][616]LogModuleManager: Shutting down and abandoning module AITestSuite (545)
+[2020.06.22-20.23.45:569][616]LogModuleManager: Shutting down and abandoning module NavigationSystem (543)
+[2020.06.22-20.23.45:569][616]LogModuleManager: Shutting down and abandoning module ProfilerService (540)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module TaskGraph (538)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module ScreenshotTools (536)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module OculusEditor (526)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module OculusInput (524)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (522)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module GooglePAD (520)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module EditableMesh (518)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (516)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module CableComponent (514)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module AudioCapture (512)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (511)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module AssetTags (508)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (506)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (504)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module AppleImageUtils (502)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module AndroidPermission (500)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (498)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (496)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module TemplateSequence (494)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (492)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (490)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (488)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (486)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (485)
+[2020.06.22-20.23.45:780][616]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (482)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (480)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module MediaCompositing (478)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module ImgMedia (476)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
+[2020.06.22-20.23.45:781][616]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module BackChannel (432)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
+[2020.06.22-20.23.45:782][616]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module SourceControl (383)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2020.06.22-20.23.45:783][616]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2020.06.22-20.23.45:884][616]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2020.06.22-20.23.45:985][616]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2020.06.22-20.23.45:985][616]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2020.06.22-20.23.45:985][616]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2020.06.22-20.23.45:985][616]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2020.06.22-20.23.45:985][616]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2020.06.22-20.23.45:985][616]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.06.22-20.23.45:985][616]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2020.06.22-20.23.45:985][616]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2020.06.22-20.23.45:985][616]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2020.06.22-20.23.45:985][616]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2020.06.22-20.23.45:985][616]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2020.06.22-20.23.45:986][616]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.06.22-20.23.45:987][616]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2020.06.22-20.23.45:987][616]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2020.06.22-20.23.45:987][616]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2020.06.22-20.23.45:987][616]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2020.06.22-20.23.45:987][616]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2020.06.22-20.23.45:987][616]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2020.06.22-20.23.45:987][616]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2020.06.22-20.23.45:988][616]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2020.06.22-20.23.45:988][616]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2020.06.22-20.23.45:988][616]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2020.06.22-20.23.45:988][616]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2020.06.22-20.23.45:988][616]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2020.06.22-20.23.45:988][616]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2020.06.22-20.23.45:989][616]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2020.06.22-20.23.45:991][616]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2020.06.22-20.23.45:991][616]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2020.06.22-20.23.45:991][616]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2020.06.22-20.23.45:991][616]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2020.06.22-20.23.45:992][616]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2020.06.22-20.23.45:992][616]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2020.06.22-20.23.45:992][616]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2020.06.22-20.23.45:992][616]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2020.06.22-20.23.45:992][616]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2020.06.22-20.23.45:992][616]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2020.06.22-20.23.46:030][616]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2020.06.22-20.23.46:030][616]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2020.06.22-20.23.46:030][616]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2020.06.22-20.23.46:030][616]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2020.06.22-20.23.46:030][616]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2020.06.22-20.23.46:030][616]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2020.06.22-20.23.46:030][616]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2020.06.22-20.23.46:030][616]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2020.06.22-20.23.46:030][616]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2020.06.22-20.23.46:030][616]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2020.06.22-20.23.46:030][616]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2020.06.22-20.23.46:030][616]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2020.06.22-20.23.46:030][616]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2020.06.22-20.23.46:030][616]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2020.06.22-20.23.46:030][616]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2020.06.22-20.23.46:030][616]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2020.06.22-20.23.46:031][616]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2020.06.22-20.23.46:031][616]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2020.06.22-20.23.46:031][616]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2020.06.22-20.23.46:034][616]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2020.06.22-20.23.46:034][616]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2020.06.22-20.23.46:034][616]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2020.06.22-20.23.46:034][616]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2020.06.22-20.23.46:034][616]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2020.06.22-20.23.46:034][616]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2020.06.22-20.23.46:034][616]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2020.06.22-20.23.46:034][616]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2020.06.22-20.23.46:034][616]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2020.06.22-20.23.46:034][616]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2020.06.22-20.23.46:034][616]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2020.06.22-20.23.46:034][616]LogModuleManager: Shutting down and abandoning module Core (216)
+[2020.06.22-20.23.46:035][616]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2020.06.22-20.23.46:035][616]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2020.06.22-20.23.46:035][616]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2020.06.22-20.23.46:035][616]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2020.06.22-20.23.46:038][616]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2020.06.22-20.23.46:038][616]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2020.06.22-20.23.46:038][616]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2020.06.22-20.23.46:038][616]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2020.06.22-20.23.46:038][616]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2020.06.22-20.23.46:038][616]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2020.06.22-20.23.46:038][616]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2020.06.22-20.23.46:038][616]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2020.06.22-20.23.46:038][616]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2020.06.22-20.23.46:038][616]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2020.06.22-20.23.46:038][616]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2020.06.22-20.23.46:038][616]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2020.06.22-20.23.46:038][616]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2020.06.22-20.23.46:038][616]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2020.06.22-20.23.46:038][616]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2020.06.22-20.23.46:039][616]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2020.06.22-20.23.46:046][616]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2020.06.22-20.23.46:050][616]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2020.06.22-20.23.46:050][616]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2020.06.22-20.23.46:050][616]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2020.06.22-20.23.46:050][616]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.06.22-20.23.46:050][616]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2020.06.22-20.23.46:050][616]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.06.22-20.23.46:050][616]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.06.22-20.23.46:051][616]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.06.22-20.23.46:051][616]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.06.22-20.23.46:056][616]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2020.06.22-20.23.46:082][616]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2020.06.22-20.23.46:082][616]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2020.06.22-20.23.46:082][616]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2020.06.22-20.23.46:082][616]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2020.06.22-20.23.46:084][616]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.06.22-20.23.46:085][616]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.06.22-20.23.46:085][616]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.06.22-20.23.46:085][616]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.06.22-20.23.46:085][616]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.06.22-20.23.46:085][616]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.06.22-20.23.46:085][616]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.06.22-20.23.46:085][616]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.06.22-20.23.46:085][616]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.06.22-20.23.46:085][616]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.06.22-20.23.46:085][616]LogHMD: Freeing OpenVRDLLHandle.
+[2020.06.22-20.23.46:085][616]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.06.22-20.23.46:085][616]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.06.22-20.23.46:085][616]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.06.22-20.23.46:085][616]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.06.22-20.23.46:085][616]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.06.22-20.23.46:086][616]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.06.22-20.23.46:086][616]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.06.22-20.23.46:106][616]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.06.22-20.23.46:106][616]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.06.22-20.23.46:106][616]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAD3DA295-45BE-4A9D-3CFE-32AE79CD1D02%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=880f587f469ce9a96477d987aad9e555%7C0c1af4eba1fb4ce093f9a30702d39339%7Cb4467f9d-d856-4144-85dd-0c7a406898bc&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.06.22-20.23.46:120][616]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.06.22-20.23.46:123][616]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.06.22-20.23.46:126][616]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.06.22-20.23.46:127][616]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.06.22-20.23.46:127][616]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.06.22-20.23.46:127][616]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.06.22-20.23.46:127][616]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.06.22-20.23.46:127][616]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.06.22-20.23.46:128][616]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.06.22-20.23.46:128][616]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.06.22-20.23.46:128][616]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.06.22-20.23.46:128][616]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.06.22-20.23.46:128][616]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.06.22-20.23.46:128][616]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.06.22-20.23.46:128][616]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.06.22-20.23.46:128][616]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.06.22-20.23.46:129][616]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.06.22-20.23.46:129][616]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.06.22-20.23.46:129][616]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.06.22-20.23.46:129][616]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.06.22-20.23.46:132][616]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.06.22-20.23.46:133][616]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.06.22-20.23.46:133][616]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.06.22-20.23.46:133][616]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.06.22-20.23.46:133][616]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.06.22-20.23.46:133][616]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.06.22-20.23.46:133][616]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.06.22-20.23.46:133][616]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.06.22-20.23.46:133][616]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.06.22-20.23.46:133][616]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.06.22-20.23.46:133][616]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.06.22-20.23.46:133][616]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.06.22-20.23.46:133][616]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.06.22-20.23.46:138][616]LogD3D11RHI: Shutdown
+[2020.06.22-20.23.46:138][616]LogD3D11RHI: CleanupD3DDevice
+[2020.06.22-20.23.46:152][616]LogExit: Exiting.
+[2020.06.22-20.23.46:163][616]Log file closed, 06/23/20 01:53:46
